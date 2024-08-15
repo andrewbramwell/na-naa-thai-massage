@@ -10,7 +10,7 @@
     :root {
         --primary: #A17A3A;
         --primaryLight: #ffd675;
-        --secondary: #001f3f;
+        --secondary: #A17A3A;
         --secondaryLight: #001f3f;
         --headerColor: #1a1a1a;
         --bodyTextColor: #4e4b66;
@@ -1203,7 +1203,7 @@
 /* Mobile */
 @media only screen and (min-width: 0rem) {
     #footer {
-        background: #442C1F;
+        background: #1a1a1a;
         padding: (84/16rem) 0 calc(20 / 16 * 1rem);
         font-size: ~"min(4vw, 1.2em)";
 
@@ -1442,7 +1442,69 @@
 @media only screen and (min-width: 0rem) {
     body.dark-mode {
         #footer {
-            background: #061623;
+            background: #1a1a1a;
+        }
+    }
+}
+
+
+
+
+#stats-1336 {
+    width: 100%;
+    max-width: (630/16rem);
+    padding: 0;
+    /* 32px - 48px */
+    margin: clamp(2rem, 5vw, 3rem) 0 0 0;
+    /* 32px - 48px */
+    padding: clamp(2rem, 5vw, 3rem) 0 0 0;
+    border-top: 1px solid #e8e8e8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: (12/16rem);
+
+    .cs-item {
+        list-style: none;
+        width: 32%;
+        /* making flex so we can align a heading with 1 line to the bottom */
+        display: flex;
+        flex-direction: column;
+        align-self: stretch;
+        align-content: space-between;
+    }
+
+    .cs-number {
+        font-size: (25/16rem);
+        line-height: 1.2em;
+        font-weight: 700;
+        text-align: left;
+        color: var(--primary);
+        display: block;
+        margin: 0 0 (8/16rem) 0;
+    }
+
+    .cs-h3 {
+        font-size: (16/16rem);
+        line-height: 1.5em;
+        font-weight: 400;
+        text-align: left;
+        /* auto margin top will push text to bottom if there's only one line */
+        margin: 0;
+        color: var(--bodyTextColor);
+    }
+}
+
+/* Dark Mode, copy and paste only the styles inside the #list-1336 brackets into your section's dark mode media query */
+body.dark-mode {
+    #stats-1336 {
+        .cs-number,
+        .cs-h3 {
+            color: var(--bodyTextColorWhite);
+        }
+
+        .cs-h3 {
+            opacity: 0.8;
         }
     }
 }

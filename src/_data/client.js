@@ -1,20 +1,20 @@
 module.exports = {
-    "name": "Code Stitch Web Designs",
-    "email": "help@codestitch.app",
-    "phoneForTel": "555-779-4407",
-    "phoneFormatted": "(555) 779-4407",
-    "address": {
-        "lineOne": "First Address Line",
-        "lineTwo": "Second Address Line",
-        "city": "Denver",
-        "state": "CO",
-        "zip": "80206",
-        "mapLink": "https://goo.gl/maps/UAQn4vuGDiwv7DV39"
+    "name": "Na Naa Thai Massage",
+    "email": "nanaathaimassage@gmail.com",
+    "phoneForTel": "+447412931198",
+    "phoneFormatted": "07412 931198",
+    "onlineBooking":"https://nanaathaimassage.setmore.com/",
+        "address": {
+        "lineOne": "10A Willesden Ln",
+        "lineTwo": "Kilburn",
+        "city": "London",
+        "zip": "NW6 7SR",
+        "mapLink": "https://maps.app.goo.gl/394PuFDpiFij26bC6"
     },
     "socials": {
         "facebook": "https://www.facebook.com/",
         "instagram": "https://www.instagram.com/",
     },
     //! Make sure you include the file protocol (e.g. https://) and that NO TRAILING SLASH is included
-    "domain": "https://www.example.com"
-};
+    "domain": "https://www.nanaathaimassage.com",
+}

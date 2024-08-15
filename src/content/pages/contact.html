@@ -1,7 +1,7 @@
 ---
-title: 'Contact | Code Stitch Web Designs'
-description: 'Meta description for the page'
-preloadImg: '/assets/images/cabinets2.jpg'
+title: 'Contact | Na Naa Thai Massage'
+description: 'Find Na Naa Thai Massage in Kilburn, London. Book your appointment for expert massage therapy. Open daily with convenient hours to suit your schedule.'
+preloadImg: '/assets/images/banner.webp'
 permalink: 'contact/'
 eleventyNavigation:
     key: Contact Us
@@ -22,15 +22,15 @@ eleventyNavigation:
 
 <div id="banner-843">
     <div class="cs-container">
-        <span class="cs-int-title">Interior Page</span>
+        <span class="cs-int-title">Contact Us</span>
     </div>
     <!--Background Image-->
     <picture class="cs-background" aria-hidden="true">
         <!--Mobile Image-->
-        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Fyoga-m.jpg">
+        <source media="(max-width: 600px)" srcset="/assets/images/banner/banner-m.webp">
         <!--Tablet and above Image-->
-        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Fyoga.jpg">
-        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Fyoga.jpg" alt="yoga" width="1280" height="568">
+        <source media="(min-width: 601px)" srcset="/assets/images/banner/banner.webp">
+        <img loading="lazy" decoding="async" src="/assets/images/banner/banner.jpg" alt="massage stones banner" width="1280" height="568">
     </picture>
 </div>
 
@@ -44,7 +44,7 @@ eleventyNavigation:
             <span class="cs-topper">Contact Us</span>
             <h2 class="cs-title">Get in Touch</h2>
             <p class="cs-text">
-                We are a team of passionate and creative individuals dedicated to crafting captivating designs that leave a lasting impression.
+                Have questions or ready to book your relaxing experience? Contact us today!
             </p>
             <ul class="cs-ul">
                 <li class="cs-li">
@@ -53,8 +53,7 @@ eleventyNavigation:
                     </picture>
                     <div class="cs-flex-group">
                         <span class="cs-header">Phone</span>
-                        <a href="tel:888-4565-789
-                        " class="cs-link">+1 (888) 4565 789
+                        <a href="tel:{{client.phoneForTel}}" class="cs-link">{{client.phoneFormatted}}
                         </a>
                     </div>
                 </li>
@@ -64,7 +63,7 @@ eleventyNavigation:
                     </picture>
                     <div class="cs-flex-group">
                         <span class="cs-header">Email</span>
-                        <a href="mailto:Email@stitch.com" class="cs-link">Email@stitch.com</a>
+                        <a href="mailto:{{client.email}}" class="cs-link">{{client.email}}</a>
                     </div>
                 </li>
                 <li class="cs-li">
@@ -73,7 +72,7 @@ eleventyNavigation:
                     </picture>
                     <div class="cs-flex-group">
                         <span class="cs-header">Address</span>
-                        <a href="" class="cs-link">2553 Woodbridge Lane, Boston Ware 120</a>
+                        <a href="" class="cs-link">{{client.address.lineOne}} {{client.address.lineTwo}} {{client.address.city}} {{client.address.state}} {{client.address.zip}}</a>
                     </div>
                 </li>
             </ul>
@@ -108,7 +107,7 @@ eleventyNavigation:
 
 <section id="map-1403">
     <!--Replace this embed code with the google maps embed code of your clients location. To do so, google your clients business, click on the map picture that in the profile card to go to the map location. That will take you to Google maps, then find the share button in the left panel and click on it. You will be given a link to share and a button to copy link, ignore that! AAbove that is a tab that says "Embed a map", click that instead and it will bring up the embed code for you clients location in maps.  Click the button to copy the html and paste it in place of this entire iframe tag. Do not keep the original iframe. Replace it with the new one you got from google maps, unless you want to display a map of Wyoming, then you can keep this iframe. -->
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8938.562275954142!2d-3.1812452!3d55.9382687!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887c77f6a6ec28b%3A0x990118c3ec061b1!2sTrue%20Thai%20Therapy%20Edinburgh!5e0!3m2!1sen!2suk!4v1722682643186!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9925.781232563697!2d-0.1988996!3d51.541733!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876114423aa52f7%3A0x24d3bb18f4a4dab2!2sNa%20naa%20Thai%20Massage!5e0!3m2!1sen!2suk!4v1723282484645!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </section>
 
 

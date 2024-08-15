@@ -1,6 +1,6 @@
 ---
-title: 'Pixel Perfect Websites | Code Stitch Web Designs | Denver, CO'
-description: 'Meta description for the page'
+title: 'Na Naa Thai Massage | Massage in Kilburn | London'
+description: 'Experience authentic Thai and Western massage techniques at Na Naa Thai Massage in Kilburn, London. Relax, rejuvenate, and heal with our expert therapists since 2018.'
 preloadImg: '/assets/images/landing.jpg'
 permalink: '/'
 tags: 'sitemap' # Sitemap will use all pages in content/, due to content.json. As index.html is not included in content/ we need to manually add the sitemap tag to this page (only).
@@ -44,21 +44,21 @@ eleventyNavigation:
     <div class="cs-container">
         <div class="cs-content">
             <span class="cs-topper">AUTHENTIC & REJUVENATING</span>
-            <h1 class="cs-title">Traditional Thai Massage & Therapy in Edinburgh</h1>
+            <h1 class="cs-title">Traditional Thai Massage in Kilburn</h1>
             <p class="cs-text">
-                Discover an authentic slice of Thailand in Scotland's capital. Our skilled therapists blend time-honored techniques with modern wellness, offering a sanctuary for both Edinburgh residents and visitors. Whether you're a local seeking regular relaxation or a tourist in need of rejuvenation, indulge in our array of massages and beauty treatments. Let True Thai Therapy be your escape, where Eastern tradition meets Scottish hospitality.
+                Located in Kilburn, London, Na Naa Thai Massage has offered a range of Thai and Western massage techniques to the local community and visitors since 2018. Situated off the bustling Kilburn High Road, we provide a calm environment where you can receive professional massage treatments.
             </p>
-            <a href="" class="cs-button-solid">Schedule An Appointment</a>
+            <a href="{{client.onlineBooking}}" target="_blank" rel="noopener"  class="cs-button-solid">Schedule An Appointment</a>
         </div>
         <!--Hero Image-->
         <picture class="cs-picture">
             <!--Mobile-->
-            <source media="(max-width: 600px)" srcset="/assets/images/hero.jpg">
+            <source media="(max-width: 600px)" srcset="/assets/images/side/hero-m.webp">
             <!--Tablet-->
-            <source media="(min-width: 601px)" srcset="/assets/images/hero.jpg">
+            <source media="(min-width: 601px)" srcset="/assets/images/side/hero-m.webp">
             <!--Desktop-->
-            <source media="(min-width: 1024px)" srcset="/assets/images/hero.jpg">
-            <img aria-hidden="true" decoding="async" src="/assets/images/hero.jpg" alt="therapy" width="570" height="701">
+            <source media="(min-width: 1024px)" srcset="/assets/images/side/hero.webp">
+            <img aria-hidden="true" decoding="async" src="/assets/images/side/hero.jpg" alt="therapy" width="570" height="701">
             </picture>
     </div>
     <!--Change the svg path fill color to whatever color the section below is so you can match it and create the illusion it is all one piece-->
@@ -68,62 +68,76 @@ eleventyNavigation:
 </section>
 
 <!-- ============================================ -->
-<!--                   Services                   -->
+<!--                  Services                    -->
 <!-- ============================================ -->
 
-<section id="services-877">
+<section id="services-1975">
     <div class="cs-container">
         <div class="cs-content">
-            <span class="cs-topper">Services</span>
-            <h2 class="cs-title">Treat Yourself to an Unforgettable Thai Experience</h2>
+            <span class="cs-topper">Immersive & Relaxing</span>
+            <h2 class="cs-title">Explore Our Services</h2>
             <p class="cs-text">
-                Indulge in a journey of renewal for body and mind. Our expert therapists artfully combine traditional Thai techniques with contemporary approaches, promoting holistic wellness. Discover our diverse range of treatments, from classic Thai massage to aromatherapy, deep tissue, hot stone, and more.
+                At Na Naa Thai Massage, we offer a range of therapeutic treatments to suit your needs. Each service is designed to promote relaxation, relieve tension, and enhance your overall well-being. Our skilled therapists tailor each session to your specific requirements, ensuring a personalised and effective experience.
             </p>
         </div>
         <ul class="cs-card-group">
             <li class="cs-item">
-                <a href="" class="cs-link">
-                    <picture class="cs-picture" aria-hidden="true">
-                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy3.jpg">
-                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy3.jpg">
-                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy3.jpg" alt="therapy" width="305" height="200">
-                    </picture>
-                    <h3 class="cs-h3">Door Cleaning</h3>
+                <div class="cs-flex">
+                    <h3 class="cs-h3">Deep Tissue Massage</h3>
                     <p class="cs-item-text">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus beatae placeat!
+                        Intense, focused pressure targets chronic muscle tension and knots. This therapeutic technique relieves deep-seated pain, improves mobility, and addresses specific muscular issues.
                     </p>
-                </a>
+                </div>
+                <picture class="cs-picture">
+                    <img loading="lazy" decoding="async"
+                    src="/assets/images/services/deep-tissue.webp" alt="icon"
+                    width="324" height="160">
+                </picture>
             </li>
             <li class="cs-item">
-                <a href="" class="cs-link">
-                    <picture class="cs-picture" aria-hidden="true">
-                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy4.jpg">
-                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy4.jpg">
-                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy4.jpg" alt="therapy" width="305" height="200">
-                    </picture>
-                    <h3 class="cs-h3">Door Cleaning</h3>
+                <div class="cs-flex">
+                    <h3 class="cs-h3">Traditional Thai Massage</h3>
                     <p class="cs-item-text">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus beatae placeat!
+                        Ancient healing art combining stretching, acupressure, and energy work. Traditional Thai Massage improves flexibility, reduces tension, and balances body and mind.
                     </p>
-                </a>
+                </div>
+                <picture class="cs-picture">
+                    <img loading="lazy" decoding="async"
+                    src="/assets/images/services/thai-massage.webp" alt="icon"
+                    width="324" height="160">
+                </picture>
             </li>
             <li class="cs-item">
-                <a href="" class="cs-link">
-                    <picture class="cs-picture" aria-hidden="true">
-                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy5.jpg">
-                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy5.jpg">
-                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy5.jpg" alt="therapy" width="305" height="200">
-                    </picture>
-                    <h3 class="cs-h3">Door Cleaning</h3>
+                <div class="cs-flex">
+                    <h3 class="cs-h3">Swedish Massage</h3>
                     <p class="cs-item-text">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus beatae placeat!
+                        Gentle, flowing strokes promote relaxation and improve circulation. This soothing technique eases muscle tension, offering a tranquil experience for overall well-being and stress relief.
                     </p>
-                </a>
+                </div>
+                <picture class="cs-picture">
+                    <img loading="lazy" decoding="async"
+                    src="/assets/images/services/swedish.webp" alt="icon"
+                    width="324" height="160">
+                </picture>
+            </li>
+            <li class="cs-item">
+                <div class="cs-flex">
+                    <h3 class="cs-h3">Foot Massage</h3>
+                    <p class="cs-item-text">
+                        Targeted therapy stimulates reflex points in the feet. This concentrated treatment relieves tension, improves circulation, and promotes whole-body relaxation and balance.
+                    </p>
+                </div>
+                <picture class="cs-picture">
+                    <img loading="lazy" decoding="async"
+                    src="/assets/images/services/foot.webp" alt="icon"
+                    width="324" height="160">
+                </picture>
             </li>
         </ul>
-        <a href="" class="cs-button-solid">View All</a>
+        <a href="/treatments/" class="cs-button-solid">All Treatments</a>
     </div>
 </section>
+                                
 
 <!-- ============================================ -->
 <!--                 Side By Side                 -->
@@ -133,79 +147,81 @@ eleventyNavigation:
     <div class="cs-container">
         <picture class="cs-picture">
             <!--Mobile Image-->
-            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy.jpg">
+            <source media="(max-width: 600px)" srcset="/assets/images/side/deep-tissue-m.webp">
             <!--Tablet and above Image-->
-            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy.jpg">
-            <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy.jpg" alt="therapy" width="630" height="775">
+            <source media="(min-width: 601px)" srcset="/assets/images/side/deep-tissue.webp">
+            <img loading="lazy" decoding="async" src="/assets/images/side/deep-tissue.jpg" alt="deep tissue massage" width="630" height="775">
         </picture>
         <div class="cs-content">
-            <span class="cs-topper">Featured Service</span>
-            <h2 class="cs-title">Occupational and Speech Therapy</h2>
+            <span class="cs-topper">Intensive & Restorative</span>
+            <h2 class="cs-title">Deep Tissue Massage</h2>
             <p class="cs-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque dicta officiis praesentium necessitatibus tempora unde quasi porro nemo aliquam voluptatem quaerat hic, doloremque impedit perferendis labore, ea libero voluptas laudantium? 
+                Experience the transformative power of deep tissue massage at Na Naa Thai Massage. This intensive technique targets chronic muscle tension and knots, providing relief and restoring mobility.
             </p>
             <p class="cs-text">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                Our expert therapists use slow, deliberate strokes and firm pressure to reach deeper layers of muscle and fascia. We focus on problem areas, working through adhesions and scar tissue to alleviate persistent pain and stiffness. Unlike the gentler Swedish massage, deep tissue work is more intense and may cause slight discomfort, but the results are long-lasting. It's ideal for those with specific muscular issues, athletes, or anyone seeking to address deep-seated tension.
             </p>
-            <a href="" class="cs-button-solid">Learn More</a>
+            <ul id="stats-1336" class="cs-ul">
+                <li class="cs-item">
+                    <span class="cs-number">£50</span>
+                    <h3 class="cs-h3">45 Mins</h3>
+                </li>
+                <li class="cs-item">
+                    <span class="cs-number">£60</span>
+                    <h3 class="cs-h3">60 Mins</h3>
+                </li>
+                <li class="cs-item">
+                    <span class="cs-number">£90</span>
+                    <h3 class="cs-h3">90 Mins</h3>
+                </li>
+                <li class="cs-item">
+                    <span class="cs-number">£110</span>
+                    <h3 class="cs-h3">120 Mins</h3>
+                </li>
+            </ul>                  
         </div>
     </div>
 </section>
 
 <!-- ============================================ -->
-<!--                 Why Choose                   -->
+<!--                   Process                    -->
 <!-- ============================================ -->
 
-<section id="why-choose-890">
+<section id="process-688">
     <div class="cs-container">
         <div class="cs-content">
-            <span class="cs-topper">Immersive & Relaxing</span>
-            <h2 class="cs-title">Why Choose True Thai Therapy</h2>
+            <span class="cs-topper">Our Work Process</span>
+            <h2 class="cs-title">How to Get Help from Us</h2>
+            <p class="cs-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam earum rerum sunt officia quas adipisci. Nulla, dolor dignissimos qui laboriosam, asperiores aliquam soluta voluptatum, dolorem dolores minima delectus quas nam?
+            </p>
         </div>
         <ul class="cs-card-group">
             <li class="cs-item">
-                <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fballs1.svg" loading="lazy" decoding="async" alt="icon" width="48" height="48" aria-hidden="true">
-                <!-- Text Grouped For Flexbox-->
-                <div class="cs-text-group">
-                    <h3 class="cs-h3">Authentic Thai Expertise</h3>
-                    <p class="cs-item-text">
-                        Experience the art of traditional Thai massage from our highly trained therapists. As Edinburgh's go-to spot for genuine Thai wellness, we offer deeply relaxing treatments rooted in centuries-old techniques.
-                    </p>
-                </div>
+                <picture class="cs-picture">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="/assets/svgs/personal.svg" alt="personal icon" width="42" height="42">
+                </picture>
+                <h3 class="cs-h3">Tailored To You</h3>
+                <p class="cs-item-text">Our therapists tailor each session to your unique needs, ensuring a bespoke experience that addresses your specific concerns and preferences.</p>
             </li>
             <li class="cs-item">
-                <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fballs1.svg" loading="lazy" decoding="async" alt="icon" width="48" height="48" aria-hidden="true">
-                <!-- Text Grouped For Flexbox-->
-                <div class="cs-text-group">
-                    <h3 class="cs-h3">Complete Sensory Journey</h3>
-                    <p class="cs-item-text">
-                        Step into a world of tranquility that engages all your senses. From our Thai-inspired decor to soothing music, aromatic herbs, and calming teas, every detail enhances your massage experience.
-                    </p>
-                </div>
+                <picture class="cs-picture">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="/assets/svgs/diamond.svg" alt="diamond icon" width="42" height="42">
+                </picture>
+                <h3 class="cs-h3">Specialised Treatments</h3>
+                <p class="cs-item-text">We offer targeted therapies for sports recovery, post-surgical rehabilitation, and illness-related issues, promoting healing and restoring optimal function.</p>
             </li>
             <li class="cs-item">
-                <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fballs1.svg" loading="lazy" decoding="async" alt="icon" width="48" height="48" aria-hidden="true">
-                <!-- Text Grouped For Flexbox-->
-                <div class="cs-text-group">
-                    <h3 class="cs-h3">Effective Stress Relief</h3>
-                    <p class="cs-item-text">
-                        Our carefully designed massages target tension and promote relaxation. Let our skilled therapists ease your stress, restore your balance, and leave you feeling refreshed and revitalized.
-                    </p>
-                </div>
-            </li>
-            <li class="cs-item">
-                <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fballs1.svg" loading="lazy" decoding="async" alt="icon" width="48" height="48" aria-hidden="true">
-                <!-- Text Grouped For Flexbox-->
-                <div class="cs-text-group">
-                    <h3 class="cs-h3">Personalised Care</h3>
-                    <p class="cs-item-text">
-                        We blend traditional Thai methods with modern wellness practices to suit your needs. Whether you're a local resident or visiting Edinburgh, our tailored treatments offer a rejuvenating escape from the everyday.
-                    </p>
-                </div>
+                <picture class="cs-picture">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="/assets/svgs/quality.svg" alt="ribbon icon" width="32" height="42">
+                </picture>
+                <h3 class="cs-h3">Highly Qualified</h3>
+                <p class="cs-item-text">Our therapists hold recognised UK qualifications and certificates from Thailand's renowned Wat Pho, blending Western techniques with authentic Thai practices.</p>
             </li>
         </ul>
-        <a href="" class="cs-button-solid">Contact Us</a>
     </div>
+    <!--SVG Waves-->
+    <img class="cs-background" loading="lazy" decoding="async" src="/assets/svgs/ripples.svg" aria-hidden="true" alt="svg waves" width="1280" height="568">
 </section>
 
 <!-- ============================================ -->
@@ -215,24 +231,41 @@ eleventyNavigation:
 <section id="sbs-r-868">
     <div class="cs-container">
         <div class="cs-image-group">
-            <picture class="cs-background">
+            <picture class="cs-picture">
                 <!--Mobile Image-->
-                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy.jpg">
+                <source media="(max-width: 600px)" srcset="/assets/images/side/thai-massage-m.webp">
                 <!--Tablet and above Image-->
-                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy.jpg">
-                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy.jpg" alt="therapy" width="1280" height="568">
+                <source media="(min-width: 601px)" srcset="/assets/images/side/thai-massage.webp">
+                <img loading="lazy" decoding="async" src="/assets/images/side/thai-massage.jpg" alt="thai massage" width="630" height="775">
             </picture>
         </div>
         <div class="cs-content">
-            <span class="cs-topper">Small Group Training</span>
-            <h2 class="cs-title">Specializing In Patient’s  Complex Rehabilitation</h2>
+            <span class="cs-topper">Energizing & Holistic</span>
+            <h2 class="cs-title">Traditional Thai Massage </h2>
             <p class="cs-text">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                Immerse yourself in the ancient healing art of traditional Thai massage at Na Naa Thai Massage. This unique technique, also known as "Thai yoga massage," combines acupressure, energy work, and assisted yoga postures to restore balance and vitality.
             </p>
             <p class="cs-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, voluptas quisquam! Facilis, distinctio. Molestiae ipsam dolorum repudiandae sint veritatis? Sapiente consectetur eaque vitae obcaecati voluptates impedit quae tempore commodi? Eos, quia! Atque optio quos voluptates earum impedit rem, necessitatibus omnis.
+                Our skilled practitioners use their hands, knees, legs, and feet to move you into a series of yoga-like stretches. Along with gentle pressure along energy lines, rhythmic compressions, and artful stretching, this massage style works to improve flexibility, reduce tension, and energise both body and mind. Unlike oil-based massages, Thai massage is performed on a padded mat with you fully clothed, allowing for a wide range of motion. It's an invigorating experience that leaves you feeling both relaxed and energised.
             </p>
-            <a href="" class="cs-button-solid">Learn More</a>
+            <ul id="stats-1336" class="cs-ul">
+                <li class="cs-item">
+                    <span class="cs-number">£50</span>
+                    <h3 class="cs-h3">45 Mins</h3>
+                </li>
+                <li class="cs-item">
+                    <span class="cs-number">£60</span>
+                    <h3 class="cs-h3">60 Mins</h3>
+                </li>
+                <li class="cs-item">
+                    <span class="cs-number">£90</span>
+                    <h3 class="cs-h3">90 Mins</h3>
+                </li>
+                <li class="cs-item">
+                    <span class="cs-number">£110</span>
+                    <h3 class="cs-h3">120 Mins</h3>
+                </li>
+            </ul>                           
         </div>
     </div>
 </section>
@@ -252,51 +285,31 @@ eleventyNavigation:
             <li class="cs-faq-item active">
                 <button class="cs-button">
                     <span class="cs-button-text">
-                        How much are house cleaning services?
+                        What are your opening hours?
                     </span>
                 </button>
                 <p class="cs-item-p">
-                    Some 
+                    Na Naa Thai Massage is open Monday through Friday from 11am to 9pm, and on weekends (Saturday and Sunday) from 12pm to 9pm. These extended hours allow us to accommodate various schedules, whether you prefer a midday break or an evening relaxation session.
                 </p>
             </li>
             <li class="cs-faq-item">
                 <button class="cs-button">
                     <span class="cs-button-text">
-                        What is your plan cancellation policy?
+                        Do I need to book in advance?
                     </span>
                 </button>
                 <p class="cs-item-p">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
+                    While we do accept walk-in appointments, we always advise booking in advance to ensure you get your preferred time slot and therapist. This also helps us prepare for your visit and reduces the likelihood of disappointment or long wait times, especially during our busier periods.
                 </p>
             </li>
             <li class="cs-faq-item">
                 <button class="cs-button">
                     <span class="cs-button-text">
-                        How long should a house cleaning take?
+                        What if I cannot attend my appointment?
                     </span>
                 </button>
                 <p class="cs-item-p">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
-                </p>
-            </li>
-            <li class="cs-faq-item">
-                <button class="cs-button">
-                    <span class="cs-button-text">
-                        How much are house cleaning services?
-                    </span>
-                </button>
-                <p class="cs-item-p">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
-                </p>
-            </li>
-            <li class="cs-faq-item">
-                <button class="cs-button">
-                    <span class="cs-button-text">
-                        Can cleanings be scheduled?
-                    </span>
-                </button>
-                <p class="cs-item-p">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
+                    We understand that plans can change. If you're unable to make your scheduled appointment, please contact the shop as early as possible to provide notice of cancellation. This courtesy allows us to offer the slot to another client and helps us maintain efficient scheduling for all our customers.
                 </p>
             </li>
         </ul>
@@ -305,51 +318,31 @@ eleventyNavigation:
             <li class="cs-faq-item">
                 <button class="cs-button">
                     <span class="cs-button-text">
-                        How much are house cleaning services?
+                        Should I eat before coming for a massage?
                     </span>
                 </button>
                 <p class="cs-item-p">
-                    Some cleaning plans require a minimum commitment term. Cancelling your plan before the minimum term is complete will result in a $99 fee. If you want to learn more information about how to cancel, please inbox us.
+                    It's recommended to avoid eating for at least 90 minutes before your massage treatment. If necessary, only have a light meal. This is because digestion diverts blood flow to your digestive system, which can interfere with the massage's effectiveness and potentially cause discomfort. Staying hydrated is important, so feel free to drink water before your appointment.
                 </p>
             </li>
             <li class="cs-faq-item">
                 <button class="cs-button">
                     <span class="cs-button-text">
-                        What is your plan cancellation policy?
+                        How often should I get a massage?
                     </span>
                 </button>
                 <p class="cs-item-p">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
+                    The frequency of massages varies depending on individual needs, preferences, and budget. For optimal benefits, regular sessions are recommended. This can range from weekly appointments for those with chronic issues or high stress levels, to monthly sessions for general wellness maintenance. We can help you determine the best schedule for your needs.
                 </p>
             </li>
             <li class="cs-faq-item">
                 <button class="cs-button">
                     <span class="cs-button-text">
-                        How long should a house cleaning take?
+                        When should I avoid getting a massage?
                     </span>
                 </button>
                 <p class="cs-item-p">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
-                </p>
-            </li>
-            <li class="cs-faq-item">
-                <button class="cs-button">
-                    <span class="cs-button-text">
-                        How much are house cleaning services?
-                    </span>
-                </button>
-                <p class="cs-item-p">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
-                </p>
-            </li>
-            <li class="cs-faq-item">
-                <button class="cs-button">
-                    <span class="cs-button-text">
-                        Can cleanings be scheduled?
-                    </span>
-                </button>
-                <p class="cs-item-p">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
+                    For your safety and comfort, it's best to avoid massages if you're feeling unwell, have a fever, or a contagious skin condition. The first trimester of pregnancy is generally considered off-limits for massage. If you have a serious medical condition or are undergoing treatments like chemotherapy, please consult your healthcare provider before booking a massage.
                 </p>
             </li>
         </ul>
@@ -366,84 +359,39 @@ eleventyNavigation:
             <span class="cs-topper">Testimonials</span>
             <h2 class="cs-title">What Our Valued Clients Say About Us</h2>
             <p class="cs-text">
-                At True Thai Therapy, we take pride in connecting with each of our clients. Our reputation for excellence spans both our local Edinburgh community and visitors from around the world. Here's what some of our satisfied guests have shared about their experiences with us
+                At Na Naa Thai Massage, we take pride in providing exceptional massage experiences. But don't just take our word for it - hear from our satisfied clients.
             </p>
         </div>
         <ul class="cs-card-group">
             <li class="cs-item">
                 <img class="cs-icon" src="/assets/svgs/google.svg" alt="quote icon" aria-hidden="true" width="40" height="38" loading="lazy" decoding="async">
-                <h3 class="cs-h3">Superb Service!</h3>
+                <h3 class="cs-h3">Amazing!</h3>
                 <p class="cs-item-text">
-                    Superb service. I Have a hernited disc and severe muscle back seizure/spasms. Have been going here every few months and they have sorted me out. They use the hammer (tok-sen)to break any scar tissue then deep message. Would highly recommend. Definitely healed my sciatica and ongoing back problems. Will continue to go here. Great team
+                    Na Naa is amazing. I have a lot of knots on my shoulders and back due to long hours sitting down in front of the computer and no one can sort my back and shoulder out like Na Na did. She knows the issues and her technique and experience are incomparable with other massag
                 </p>
-                <span class="cs-name">Dan</span>
+                <span class="cs-name">Zin Thet</span>
             </li>
             <li class="cs-item">
                 <img class="cs-icon" src="/assets/svgs/google.svg" alt="quote icon" aria-hidden="true" width="40" height="38" loading="lazy" decoding="async">
-                <h3 class="cs-h3">Phenomenal!</h3>
+                <h3 class="cs-h3">Highly recommended!</h3>
                 <p class="cs-item-text">
-                    Phenomenal. I got a same-day appointment as I finally resolved to try and sort out some long-standing neck and shoulder pain. It was my first Thai massage and it was very, very good - unlocked so much of the tension and pain I have built up. I booked another appointment on the spot. Thank you, Sudjai
+                    Highly Recommended! This afternoon I have had one of the best massages I have ever experienced! Thank you Na Naa, you are amazing! 👏 Tomorrow I am sending you my husband! I am so grateful 🙏 that I found you! Thanks again! 😊   
                 </p>
-                <span class="cs-name">Catriona</span>
+                <span class="cs-name">Yanitsa Marinova</span>
             </li>
             <li class="cs-item">
                 <img class="cs-icon" src="/assets/svgs/google.svg" alt="quote icon" aria-hidden="true" width="40" height="38" loading="lazy" decoding="async">
-                <h3 class="cs-h3">Five Star!</h3>
+                <h3 class="cs-h3">The pain has gone!</h3>
                 <p class="cs-item-text">
-                    After a long flight to Edinburgh it was great to be able to find a much needed place for a therapeutic massage to relieve my aching muscles. The booking was easily done online and the cost was definitely value for money. Nuch is an excellent masseuse.  I cannot recommend both Nuch and True Thai Therapy more highly. Five star for sure!
+                    I am working as a nail technician. I had severe back and neck pain from sitting every day. But today, even with just one massage, the pain is all gone. I'm lucky to have gotten to know her. I’m so grateful to her and will be visiting often. Nanaa is an amazing professional 😍😍
                 </p>
-                <span class="cs-name">Michael Slack</span>
+                <span class="cs-name">Yuna</span>
             </li>
         </ul>
+        <a href="https://www.google.com/search?q=na+naa+thai+massage+kilburn&rlz=1C5CHFA_enTH953TH953&oq=na+naa+thai+massage+kilburn&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQIRgKGKABMgkIAhAhGAoYoAEyCQgDECEYChigAdIBCDU2MDJqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#lrd=0x4876114423aa52f7:0x24d3bb18f4a4dab2,3,,,," target="_blank" rel="noopener" class="cs-button-solid">Leave a review</a>
     </div>
 </section>
-
-<!-- ============================================ -->
-<!--                 Promotions                   -->
-<!-- ============================================ -->
-
-<section id="promotions-1567">
-    <div class="cs-container">
-        <ul class="cs-card-group">
-            <li class="cs-item">
-                <picture class="cs-background">
-                    <!--Mobile Image-->
-                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/room1.jpg">
-                    <!--Tablet and above Image-->
-                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/room1.jpg">
-                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/room1.jpg" alt="room" width="630" height="354">
-                </picture>
-                <div class="cs-content">
-                    <span class="cs-tag">Freshwater Fishing</span>
-                    <h2 class="cs-h2">Get an Extra 30% off</h2>
-                    <a href="" class="cs-button-solid">Shop Now</a>
-                </div>
-            </li>
-            <li class="cs-item">
-                <picture class="cs-background">
-                    <!--Mobile Image-->
-                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/room2.jpg">
-                    <!--Tablet and above Image-->
-                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/room2.jpg">
-                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/room2.jpg" alt="room" width="630" height="354">
-                </picture>
-                <div class="cs-content">
-                    <span class="cs-tag">Freshwater Fishing</span>
-                    <h2 class="cs-h2">Buy 2 Items - Get 1 for Free</h2>
-                    <a href="" class="cs-button-solid">Shop Now</a>
-                </div>
-            </li>
-        </ul>
-    </div>
-</section>
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
+                   
                                 
 <script>const faqItems = Array.from(document.querySelectorAll('.cs-faq-item'));
         for (const item of faqItems) {

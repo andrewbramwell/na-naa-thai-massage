@@ -137,7 +137,7 @@
 /* Dark Mode */
 @media only screen and (min-width: 0rem) {
   body.dark-mode #hero-856 {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.9);
   }
   body.dark-mode #hero-856 .cs-title,
   body.dark-mode #hero-856 .cs-text,
@@ -146,6 +146,6 @@
     color: var(--bodyTextColorWhite);
   }
   body.dark-mode #hero-856 .cs-wave path {
-    fill: var(--dark);
+    fill: #0E0E0E;
   }
 }
