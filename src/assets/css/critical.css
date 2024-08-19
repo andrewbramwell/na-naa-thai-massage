@@ -145,6 +145,9 @@
   body.dark-mode #hero-856 .cs-desc {
     color: var(--bodyTextColorWhite);
   }
+  body.dark-mode #hero-856 .cs-topper {
+    color: var(--primaryLight);
+  }
   body.dark-mode #hero-856 .cs-wave path {
     fill: #0E0E0E;
   }
