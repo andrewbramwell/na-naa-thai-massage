@@ -145,6 +145,9 @@
   body.dark-mode #services-1975 .cs-item-text {
     opacity: 0.8;
   }
+  body.dark-mode #services-1975 .cs-topper {
+    color: var(--primaryLight);
+  }
   body.dark-mode #services-1975 .cs-picture {
     background-color: var(--dark);
   }

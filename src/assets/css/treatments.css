@@ -36,6 +36,9 @@
   body.dark-mode #content-1450 .cs-text {
     opacity: 0.8;
   }
+  body.dark-mode #content-1450 .cs-topper {
+    color: var(--primaryLight);
+  }
 }
 /*-- -------------------------- -->
 <---       Side By Side         -->

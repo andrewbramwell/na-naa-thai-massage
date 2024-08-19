@@ -125,7 +125,7 @@
   h6 {
     margin: 0;
     color: var(--headerColor);
-    font-family: kalnia;
+    font-family: Cinzel;
   }
   p,
   li,
@@ -169,24 +169,24 @@
     src: url('/assets/fonts/josefin-sans-v32-latin-700.woff2') format('woff2');
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
-  /* kalnia-regular - latin */
+  /* cinzel-regular - latin */
   @font-face {
     font-display: swap;
     /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Kalnia';
+    font-family: 'Cinzel';
     font-style: normal;
     font-weight: 400;
-    src: url('/assets/fonts/kalnia-v2-latin-regular.woff2') format('woff2');
+    src: url('/assets/fonts/cinzel-v23-latin-regular.woff2') format('woff2');
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
-  /* kalnia-500 - latin */
+  /* cinzel-700 - latin */
   @font-face {
     font-display: swap;
     /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Kalnia';
+    font-family: 'Cinzel';
     font-style: normal;
-    font-weight: 500;
-    src: url('/assets/fonts/kalnia-v2-latin-500.woff2') format('woff2');
+    font-weight: 700;
+    src: url('/assets/fonts/cinzel-v23-latin-700.woff2') format('woff2');
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
 }
@@ -510,10 +510,6 @@
   body.dark-mode #cs-navigation {
     background-color: var(--dark);
   }
-  body.dark-mode #cs-navigation .cs-logo {
-    /* makes it white */
-    filter: grayscale(1) brightness(1000%);
-  }
   body.dark-mode #cs-navigation .cs-line {
     background-color: #fff;
   }
@@ -833,10 +829,6 @@
   body.dark-mode #cs-navigation {
     background-color: var(--dark);
   }
-  body.dark-mode #cs-navigation .cs-logo {
-    /* makes it turn white */
-    filter: grayscale(1) brightness(1000%);
-  }
   body.dark-mode #cs-navigation .cs-li-link {
     color: var(--bodyTextColorWhite);
   }
@@ -877,6 +869,7 @@
     margin: 0;
     color: var(--bodyTextColorWhite);
     position: relative;
+    font-family: cinzel;
   }
   #banner-843 .cs-background {
     width: 100%;
@@ -983,7 +976,7 @@
     border-radius: 1.5rem 0 1.5rem 0;
     position: relative;
     z-index: 1;
-    background-color: #442C1F;
+    background-color: #1a1a1a;
     color: #fff;
     transition: background-color 0.3s, border-radius 0.3s;
   }
